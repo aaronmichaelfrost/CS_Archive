@@ -12,8 +12,8 @@
 University directories are typically labelled in such a way that indicates
 what is implemented in the assignment. For example, if I am implementing
 a binary heap and a priority queue, then the folder containing that assignment
-might be named **"binHeap_priorityQueue", where the underscore is used to
-**differentiate between subjects.
+might be named ***"binHeap_priorityQueue", where the underscore is used to***
+***differentiate between subjects.***
 
 Also note that currently the Personal folder only includes source files
 extracted from actual personal projects.
