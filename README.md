@@ -18,7 +18,7 @@ might be named ***"binHeap_priorityQueue", where the underscore is used to***
 Also note that currently the Personal folder only includes source files
 extracted from actual personal projects.
 
-### This repo does not include my work with C# and Unity.
+### C# and Unity.
 
 You can find that code here: 
 https://github.com/aaronmichaelfrost/ALRH/tree/main/Assets/Scripts
