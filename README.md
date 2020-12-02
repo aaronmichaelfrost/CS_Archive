@@ -12,7 +12,7 @@
 University directories are typically labelled in such a way that indicates
 what concept is implemented in the assignment. For example, if I am implementing
 a binary heap and a priority queue, then the folder containing that assignment
-might be named ***"binHeap_priorityQueue", where the underscore is used to***
+might be named ***"binHeap_priorityQueue"***, where the ***underscore is used to***
 ***differentiate between subjects.***
 
 ### Scope of Work
