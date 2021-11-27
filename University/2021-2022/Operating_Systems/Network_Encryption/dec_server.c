@@ -138,6 +138,8 @@ int main(int argc, char* argv[]) {
             int characters_read = 0;
             int message_size = 0;
 
+            memset(buffer, '\0', sizeof(buffer));
+
             // Client should send the mode string "d" for decrypt
             while (characters_read == 0) {
                 characters_read = recv(connectionSocket, buffer, sizeof(buffer) - 1, 0);

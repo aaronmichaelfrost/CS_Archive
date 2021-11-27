@@ -1,8 +1,8 @@
 ///
-///		enc_client.c
-///		Encryption client. Pass in plaintext and key. This client asks the enc_server to encrypt the message. 
-///     First you must run enc_server and use the same port
-///     USAGE: enc_client plaintext.txt key.txt port
+///		dec_client.c
+///		Decryption client. Pass in ciphertext and key. This client asks the enc_server to decrypt the message. 
+///     First you must run dec_server and use the same port
+///     USAGE: dec_client ciphertext.txt key.txt port
 /// 
 ///		Aaron Frost - 11/26/2021
 ///
@@ -52,31 +52,31 @@ int main(int argc, char* argv[]) {
 
     // Check usage and args
     if (argc < 4) {
-        fprintf(stderr, "USAGE: %s plaintext key port\n", argv[0]);
+        fprintf(stderr, "USAGE: %s ciphertext key port\n", argv[0]);
         exit(0);
     }
 
-    char* plaintext;
+    char* cipher;
     char* key;
 
-    long plaintext_size;
+    long cipher_size;
     long key_size;
-   
+
     // Read plaintext into a string
-    FILE* plaintext_fp = fopen(argv[1], "r");
-    if (plaintext_fp == NULL) {
-        fprintf(stderr, "CLIENT: ERROR: plaintext file failed to open\n");
+    FILE* cipher_fp = fopen(argv[1], "r");
+    if (cipher_fp == NULL) {
+        fprintf(stderr, "CLIENT: ERROR: cipher file failed to open\n");
         exit(0);
     }
     // Get the number of bytes minus newline char
-    fseek(plaintext_fp, 0L, SEEK_END);
-    plaintext_size = ftell(plaintext_fp) - 1;
+    fseek(cipher_fp, 0L, SEEK_END);
+    cipher_size = ftell(cipher_fp) - 1;
     // Reset the file position indicator to beginning of file
-    fseek(plaintext_fp, 0L, SEEK_SET);
-    plaintext = (char*)calloc(plaintext_size, sizeof(char));
+    fseek(cipher_fp, 0L, SEEK_SET);
+    cipher = (char*)calloc(cipher_size, sizeof(char));
     // Copy file text into buffer
-    fread(plaintext, sizeof(char), plaintext_size, plaintext_fp);
-    fclose(plaintext_fp);
+    fread(cipher, sizeof(char), cipher_size, cipher_fp);
+    fclose(cipher_fp);
 
 
     // Read key into string
@@ -97,15 +97,15 @@ int main(int argc, char* argv[]) {
 
 
     // Compare length of plaintext and key
-    if (key_size < plaintext_size) {
-        fprintf(stderr, "CLIENT: ERROR: Key size %d < plaintext size %d\n", key_size, plaintext_size);
+    if (key_size < cipher_size) {
+        fprintf(stderr, "CLIENT: ERROR: Key size %d < plaintext size %d\n", key_size, cipher_size);
         exit(1);
     }
 
     // Check characters in plaintext
-    for (size_t i = 0; i < plaintext_size; i++)
+    for (size_t i = 0; i < cipher_size; i++)
     {
-        if (plaintext[i] > 90 || (plaintext[i] < 65 && plaintext[i] != 32)) {
+        if (cipher[i] > 90 || (cipher[i] < 65 && cipher[i] != 32)) {
             fprintf(stderr, "CLIENT: ERROR: invalid character in plaintext\n");
             exit(1);
         }
@@ -145,8 +145,8 @@ int main(int argc, char* argv[]) {
 
     // Make sure we are connecting to the correct server.
 
-    // Send an "e" for encryption
-    char* message = "e";
+    // Send an "d" for dcryption
+    char* message = "d";
     charsWritten = send(socketFD, message, strlen(message), 0);
     if (charsWritten < 0) {
         error("CLIENT: ERROR writing to socket");
@@ -160,14 +160,14 @@ int main(int argc, char* argv[]) {
     if (charsRead < 0) {
         error("CLIENT: ERROR reading from socket");
     }
-    if (strcmp(buffer, "n") == 0) {
+
+    if (strcmp(buffer, "y") != 0) {
         fprintf(stderr, "CLIENT: ERROR incorrect server\n");
         exit(2);
     }
 
-
     // SEND MESSAGE SIZE
-    int full_message_size = plaintext_size + key_size + 1;
+    int full_message_size = cipher_size + key_size + 1;
 
     memset(buffer, '\0', sizeof(buffer));
     sprintf(buffer, "%d", full_message_size);
@@ -200,27 +200,27 @@ int main(int argc, char* argv[]) {
 
     char full_message[full_message_size];
     // Concatenate plaintext and key into buffer delimited with newline
-    sprintf(full_message, "%s\n%s", plaintext, key);
+    sprintf(full_message, "%s\n%s", cipher, key);
 
     while (charsWritten < full_message_size) {
         charsWritten += send(socketFD, full_message, strlen(full_message), 0);
     }
 
     // RECIEVE CIPHERTEXT FROM SERVER
-    char recieved_ciphertext[100000];
+    char recieved_plaintext[100000];
     charsRead = 0;
 
     // We expect the ciphertext to be the same length as the plaintext
-    while (charsRead < plaintext_size) {
+    while (charsRead < cipher_size) {
         memset(buffer, '\0', sizeof(buffer));
         charsRead += recv(socketFD, buffer, sizeof(buffer) - 1, 0);
-        strcat(recieved_ciphertext, buffer);
+        strcat(recieved_plaintext, buffer);
     }
 
     // Output ciphertext
-    printf("%s\n", recieved_ciphertext);
+    printf("%s\n", recieved_plaintext);
 
-    free(plaintext);
+    free(cipher);
 
     // Close the socket
     close(socketFD);
