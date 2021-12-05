@@ -90,9 +90,6 @@ fn reduce_data(v: &Vec<usize>) -> usize{
     sum
 }
 
-/*
-* A single threaded map-reduce program
-*/
 fn main() {
 
     // Use std::env to get arguments passed to the program
