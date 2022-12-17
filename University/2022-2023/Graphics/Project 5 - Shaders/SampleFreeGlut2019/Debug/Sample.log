@@ -1,0 +1,23 @@
+﻿  sample.cpp
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(298,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(305,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(315,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(316,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(335,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(336,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(348,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(349,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(439,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(574,10): warning C4305: '=': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(576,10): warning C4305: '=': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(564,22): warning C4101: 'specB': unreferenced local variable
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(564,8): warning C4101: 'specR': unreferenced local variable
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(562,12): warning C4101: 'V1': unreferenced local variable
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(561,12): warning C4101: 'Dt': unreferenced local variable
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(562,8): warning C4101: 'V0': unreferenced local variable
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(561,8): warning C4101: 'Ds': unreferenced local variable
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(562,16): warning C4101: 'V2': unreferenced local variable
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(564,15): warning C4101: 'specG': unreferenced local variable
+C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\sample.cpp(1742,48): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+cone.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sample.vcxproj -> C:\Dev\OSUCS\Graphics\Project 5 - Shaders\SampleFreeGlut2019\Debug\Sample.exe

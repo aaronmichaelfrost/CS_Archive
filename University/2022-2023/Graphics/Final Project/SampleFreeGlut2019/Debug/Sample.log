@@ -1,0 +1,35 @@
+﻿  sample.cpp
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(297,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(304,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(314,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(315,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(334,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(335,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(347,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(348,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(397,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(406,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(408,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(418,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(419,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(438,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(439,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(451,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(452,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(543,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(685,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(685,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(686,82): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(686,38): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(720,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(725,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(730,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(735,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(740,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(752,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(768,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(772,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(773,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\sample.cpp(1794,48): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+cone.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sample.vcxproj -> C:\Dev\OSUCS\Graphics\Final Project\SampleFreeGlut2019\Debug\Sample.exe

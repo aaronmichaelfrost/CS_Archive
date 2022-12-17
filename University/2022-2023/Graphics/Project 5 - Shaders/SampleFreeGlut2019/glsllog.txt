@@ -1,0 +1,8 @@
+
+0(31) : error C0000: syntax error, unexpected "&&", expecting identifier or template identifier or type identifier at token "&&"
+0(37) : error C1503: undefined variable "myColor"
+0(39) : error C1503: undefined variable "Normal"
+0(39) : error C1503: undefined variable "Light"
+0(40) : error C1503: undefined variable "myColor"
+0(43) : error C0000: syntax error, unexpected reserved word "if" at token "if"
+

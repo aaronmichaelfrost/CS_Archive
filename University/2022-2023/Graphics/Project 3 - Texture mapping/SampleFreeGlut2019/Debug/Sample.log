@@ -1,0 +1,15 @@
+﻿  sample.cpp
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(294,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(295,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(296,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(297,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(318,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(324,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(325,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(326,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(342,80): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(343,31): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(504,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\sample.cpp(505,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+cone.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sample.vcxproj -> C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\Debug\Sample.exe

@@ -1,0 +1,6 @@
+
+0(25) : error C0000: syntax error, unexpected type identifier, expecting ',' or ';' at token "vec3"
+0(31) : error C1503: undefined variable "Light"
+0(35) : error C1503: undefined variable "Light"
+0(37) : error C1503: undefined variable "Light"
+

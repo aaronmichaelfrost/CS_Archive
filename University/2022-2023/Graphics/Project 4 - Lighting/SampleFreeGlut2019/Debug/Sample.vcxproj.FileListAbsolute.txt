@@ -1,0 +1,2 @@
+C:\Dev\OSUCS\Graphics\Project 2\SampleFreeGlut2019\Debug\Sample.exe
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\Debug\Sample.exe

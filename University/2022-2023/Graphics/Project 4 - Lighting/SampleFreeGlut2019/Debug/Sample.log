@@ -1,0 +1,23 @@
+﻿  sample.cpp
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(297,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(304,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(314,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(315,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(334,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(335,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(347,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(348,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(436,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(557,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(560,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(560,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(560,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(562,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(562,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(562,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(564,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(567,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(571,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\sample.cpp(1751,48): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+cone.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sample.vcxproj -> C:\Dev\OSUCS\Graphics\Project 4 - Lighting\SampleFreeGlut2019\Debug\Sample.exe
