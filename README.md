@@ -1,3 +1,1 @@
-# Programming Archive
-* university assignments 
-* open source personal projects
+This is some of my Oregon State University coursework
